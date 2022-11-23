@@ -1,0 +1,85 @@
+*{
+    text-align: center;
+}
+body{
+    margin: 150px auto;
+}
+.container{
+    margin:auto;
+    padding: 30px;
+    background-color: coral;
+    text-align: center;
+    border-radius: 10px;
+    width: 60%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.top-label, .inputfield, .btn-tag{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:30px auto; 
+    padding: 20px; 
+}
+h1{
+    font-size: 48px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(54, 61, 79);
+    margin: auto;
+}
+h2, p{
+    font-size: 28px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(238, 237, 243);
+    margin: auto;
+    
+}
+
+input{
+    margin: auto;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    color: green;
+    font-size: 45px;
+    font-weight: 800;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-align: center;
+}
+input:active{
+    background-color: rgb(92, 92, 225);
+    color: rgb(177, 17, 17);
+    cursor: pointer;
+    border: none;
+
+}
+
+button{
+   margin: auto;
+   padding: 10px 30px;
+   border: none;
+   color: white;
+   background-color: rgb(189, 8, 8);
+   border-radius: 9px;
+   -webkit-border-radius: 9px;
+   -moz-border-radius: 9px;
+   -ms-border-radius: 9px;
+   -o-border-radius: 9px;
+   cursor: pointer;
+}
+button:hover{
+  
+    background-color: rgb(9, 106, 46);
+    color: white;
+    cursor: pointer;
+}
